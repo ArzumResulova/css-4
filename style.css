@@ -1,0 +1,273 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+header nav ul {
+    display: flex;
+    background-color: rgb(249, 23, 152);
+    justify-content: space-between;
+    padding: 0px 120px;
+    height: 45px;
+    align-items: center;
+    list-style: none;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+
+}
+
+header nav ul li {
+
+    font-weight: 600px;
+    font-size: medium;
+}
+
+
+.smd {
+    padding-left: 60px;
+}
+
+.phn {
+
+
+    height: 45px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-start;
+
+}
+
+
+.last {
+
+    display: flex;
+
+}
+
+.last p {
+    transform: rotate(-15deg);
+    padding-right: 16px;
+
+}
+
+
+.last .fa-caret-down {
+    padding-left: 15px;
+    padding-top: 4px;
+
+}
+
+.last2 .fa-caret-down {
+    padding-left: 15px;
+    padding-top: 4px;
+}
+
+
+/* Responsive  */
+
+@media(max-width:1470px) {
+
+    header nav ul {
+        padding: 0px 15px;
+
+    }
+
+}
+
+
+@media (max-width:1421px) {
+
+    .phn {
+        display: none;
+    }
+
+
+    header nav ul .knm {
+        display: none;
+
+    }
+
+    header nav ul .last {
+        padding-left: 150px;
+    }
+
+    header nav ul .last2 {
+        padding-right: 50px;
+    }
+
+
+    header nav ul .truck {
+        padding-left: 200px;
+
+    }
+
+
+
+}
+
+
+@media(max-width:961px) {
+
+
+    header nav ul .last {
+        display: none;
+    }
+
+
+    header nav ul {
+        height: 30px;
+        padding: 0px 50px;
+    }
+}
+
+
+@media (max-width:905px) {
+    header nav ul .truck {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:857px) {
+
+    header nav ul li {
+
+        font-size: smaller;
+
+    }
+
+    header nav ul .last2 {
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    header nav ul .smd {
+        padding-left: 0px;
+
+    }
+
+
+    header nav ul .truck {
+        padding-right: 250px;
+
+    }
+
+}
+
+@media (max-width:800px) {
+
+    header nav ul .last2 {
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+    header nav ul .smd {
+        padding-left: 5px;
+
+    }
+
+    header nav ul .truck {
+        padding-left: 5px;
+
+    }
+
+
+}
+
+@media (max-width:776px) {
+header  nav ul li{
+    font-size: smaller;
+}
+    header nav ul .truck {
+        padding-right: 100px;
+    }
+}
+
+@media (max-width:619px) {
+
+    header nav ul {
+        height: 30px;
+        padding: 0px 3px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+
+    }
+
+}
+
+@media (max-width:508px) {
+    header nav ul .truck {
+        padding-right: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive start */
+@media(max-width:1202px) {
+
+    header nav ul .phone .support {
+        display: none;
+    }
+
+
+}
